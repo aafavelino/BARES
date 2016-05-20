@@ -1,0 +1,215 @@
+\hypertarget{class_stack_ar}{}\section{Stack\+Ar$<$ Object $>$ Class Template Reference}
+\label{class_stack_ar}\index{Stack\+Ar$<$ Object $>$@{Stack\+Ar$<$ Object $>$}}
+
+
+Classe \hyperlink{class_stack_ar}{Stack\+Ar}.  
+
+
+
+
+{\ttfamily \#include $<$stackar.\+h$>$}
+
+Inheritance diagram for Stack\+Ar$<$ Object $>$\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{class_stack_ar}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_stack_ar_ae1256302064835dbd36d078902670b5e}{Stack\+Ar} (const int \&\+\_\+size=10)
+\begin{DoxyCompactList}\small\item\em Construtor \hyperlink{class_stack_ar}{Stack\+Ar}. \end{DoxyCompactList}\item 
+\hyperlink{class_stack_ar_a4ad1d77653d6ebfbe03bb359f610863c}{$\sim$\+Stack\+Ar} ()\hypertarget{class_stack_ar_a4ad1d77653d6ebfbe03bb359f610863c}{}\label{class_stack_ar_a4ad1d77653d6ebfbe03bb359f610863c}
+
+\begin{DoxyCompactList}\small\item\em Destrutor da classe \hyperlink{class_queue_ar}{Queue\+Ar} Destroi a Pilha. \end{DoxyCompactList}\item 
+void \hyperlink{class_stack_ar_ad3fc10de870f4ef52fb37f0a9b335222}{push} (const Object \&x)
+\begin{DoxyCompactList}\small\item\em Insere elementos na pilha. \end{DoxyCompactList}\item 
+Object \hyperlink{class_stack_ar_a53d0e26536ad28e464b8bf99f84d8760}{pop} ()
+\begin{DoxyCompactList}\small\item\em Remove o elemento no topo da pilha. \end{DoxyCompactList}\item 
+Object \hyperlink{class_stack_ar_a15a4938f80dc4009aaba5eb01bd1e6c1}{top} () const 
+\begin{DoxyCompactList}\small\item\em Retorna o elemento no topo da pilha. \end{DoxyCompactList}\item 
+Object \hyperlink{class_stack_ar_a6f12b2c8213a6935cfb7ecf7d4875210}{get\+Capacidade} () const 
+\begin{DoxyCompactList}\small\item\em Pega o tamanho da capacidade da pilha. \end{DoxyCompactList}\item 
+bool \hyperlink{class_stack_ar_ae4dcecdf54a3f6ed7cf9192cec8c60a5}{is\+Empty} () const 
+\begin{DoxyCompactList}\small\item\em Verifica se a pilha está vazia \{ \}. \end{DoxyCompactList}\item 
+void \hyperlink{class_stack_ar_ac6252abb241ee6d9c827eabd4519fdb8}{make\+Empty} ()
+\begin{DoxyCompactList}\small\item\em Apaga toda a pilha. \end{DoxyCompactList}\item 
+void {\bfseries print} ()\hypertarget{class_stack_ar_a1e3e5bd273aa6034dd0f95d6a00f6220}{}\label{class_stack_ar_a1e3e5bd273aa6034dd0f95d6a00f6220}
+
+\end{DoxyCompactItemize}
+\subsection*{Friends}
+\begin{DoxyCompactItemize}
+\item 
+std\+::ostream \& \hyperlink{class_stack_ar_ace3850b785f09b70ff174a57cadd4a96}{operator$<$$<$} (std\+::ostream \&op, const \hyperlink{class_stack_ar}{Stack\+Ar} \&objeto)
+\begin{DoxyCompactList}\small\item\em Sobrecarga do operador $<$$<$ para a pilha. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+\subsubsection*{template$<$class Object$>$\\*
+class Stack\+Ar$<$ Object $>$}
+
+Classe \hyperlink{class_stack_ar}{Stack\+Ar}. 
+
+Implementação e assinatura das funções da classe \hyperlink{class_queue_ar}{Queue\+Ar} 
+
+\subsection{Constructor \& Destructor Documentation}
+\index{Stack\+Ar@{Stack\+Ar}!Stack\+Ar@{Stack\+Ar}}
+\index{Stack\+Ar@{Stack\+Ar}!Stack\+Ar@{Stack\+Ar}}
+\subsubsection[{\texorpdfstring{Stack\+Ar(const int \&\+\_\+size=10)}{StackAr(const int &_size=10)}}]{\setlength{\rightskip}{0pt plus 5cm}template$<$class Object $>$ {\bf Stack\+Ar}$<$ Object $>$\+::{\bf Stack\+Ar} (
+\begin{DoxyParamCaption}
+\item[{const int \&}]{\+\_\+size = {\ttfamily 10}}
+\end{DoxyParamCaption}
+)}\hypertarget{class_stack_ar_ae1256302064835dbd36d078902670b5e}{}\label{class_stack_ar_ae1256302064835dbd36d078902670b5e}
+
+
+Construtor \hyperlink{class_stack_ar}{Stack\+Ar}. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em \+\_\+size} & \\
+\hline
+\end{DoxyParams}
+Seta as Variáveis da classe e tem tamanho padrão 10 
+
+\subsection{Member Function Documentation}
+\index{Stack\+Ar@{Stack\+Ar}!get\+Capacidade@{get\+Capacidade}}
+\index{get\+Capacidade@{get\+Capacidade}!Stack\+Ar@{Stack\+Ar}}
+\subsubsection[{\texorpdfstring{get\+Capacidade() const }{getCapacidade() const }}]{\setlength{\rightskip}{0pt plus 5cm}template$<$class Object $>$ Object {\bf Stack\+Ar}$<$ Object $>$\+::get\+Capacidade (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const}\hypertarget{class_stack_ar_a6f12b2c8213a6935cfb7ecf7d4875210}{}\label{class_stack_ar_a6f12b2c8213a6935cfb7ecf7d4875210}
+
+
+Pega o tamanho da capacidade da pilha. 
+
+\begin{DoxyReturn}{Returns}
+O tamanho da capacidade da pilha 
+\end{DoxyReturn}
+\index{Stack\+Ar@{Stack\+Ar}!is\+Empty@{is\+Empty}}
+\index{is\+Empty@{is\+Empty}!Stack\+Ar@{Stack\+Ar}}
+\subsubsection[{\texorpdfstring{is\+Empty() const }{isEmpty() const }}]{\setlength{\rightskip}{0pt plus 5cm}template$<$class Object $>$ bool {\bf Stack\+Ar}$<$ Object $>$\+::is\+Empty (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [virtual]}}\hypertarget{class_stack_ar_ae4dcecdf54a3f6ed7cf9192cec8c60a5}{}\label{class_stack_ar_ae4dcecdf54a3f6ed7cf9192cec8c60a5}
+
+
+Verifica se a pilha está vazia \{ \}. 
+
+\begin{DoxyReturn}{Returns}
+True se a pilha estiver vazia e False caso haja elementos 
+\end{DoxyReturn}
+
+
+Implements \hyperlink{class_abs_stack}{Abs\+Stack$<$ Object $>$}.
+
+\index{Stack\+Ar@{Stack\+Ar}!make\+Empty@{make\+Empty}}
+\index{make\+Empty@{make\+Empty}!Stack\+Ar@{Stack\+Ar}}
+\subsubsection[{\texorpdfstring{make\+Empty()}{makeEmpty()}}]{\setlength{\rightskip}{0pt plus 5cm}template$<$class Object $>$ void {\bf Stack\+Ar}$<$ Object $>$\+::make\+Empty (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [virtual]}}\hypertarget{class_stack_ar_ac6252abb241ee6d9c827eabd4519fdb8}{}\label{class_stack_ar_ac6252abb241ee6d9c827eabd4519fdb8}
+
+
+Apaga toda a pilha. 
+
+\begin{DoxyReturn}{Returns}
+void 
+\end{DoxyReturn}
+
+
+Implements \hyperlink{class_abs_stack}{Abs\+Stack$<$ Object $>$}.
+
+\index{Stack\+Ar@{Stack\+Ar}!pop@{pop}}
+\index{pop@{pop}!Stack\+Ar@{Stack\+Ar}}
+\subsubsection[{\texorpdfstring{pop()}{pop()}}]{\setlength{\rightskip}{0pt plus 5cm}template$<$class Object $>$ Object {\bf Stack\+Ar}$<$ Object $>$\+::pop (
+\begin{DoxyParamCaption}
+\item[{void}]{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [virtual]}}\hypertarget{class_stack_ar_a53d0e26536ad28e464b8bf99f84d8760}{}\label{class_stack_ar_a53d0e26536ad28e464b8bf99f84d8760}
+
+
+Remove o elemento no topo da pilha. 
+
+\begin{DoxyReturn}{Returns}
+void 
+\end{DoxyReturn}
+
+
+Implements \hyperlink{class_abs_stack}{Abs\+Stack$<$ Object $>$}.
+
+\index{Stack\+Ar@{Stack\+Ar}!push@{push}}
+\index{push@{push}!Stack\+Ar@{Stack\+Ar}}
+\subsubsection[{\texorpdfstring{push(const Object \&x)}{push(const Object &x)}}]{\setlength{\rightskip}{0pt plus 5cm}template$<$class Object $>$ void {\bf Stack\+Ar}$<$ Object $>$\+::push (
+\begin{DoxyParamCaption}
+\item[{const Object \&}]{x}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [virtual]}}\hypertarget{class_stack_ar_ad3fc10de870f4ef52fb37f0a9b335222}{}\label{class_stack_ar_ad3fc10de870f4ef52fb37f0a9b335222}
+
+
+Insere elementos na pilha. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em x} & Recebe o elemento a ser adicionado \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+void 
+\end{DoxyReturn}
+
+
+Implements \hyperlink{class_abs_stack}{Abs\+Stack$<$ Object $>$}.
+
+\index{Stack\+Ar@{Stack\+Ar}!top@{top}}
+\index{top@{top}!Stack\+Ar@{Stack\+Ar}}
+\subsubsection[{\texorpdfstring{top() const }{top() const }}]{\setlength{\rightskip}{0pt plus 5cm}template$<$class Object $>$ Object {\bf Stack\+Ar}$<$ Object $>$\+::top (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const\hspace{0.3cm}{\ttfamily [virtual]}}\hypertarget{class_stack_ar_a15a4938f80dc4009aaba5eb01bd1e6c1}{}\label{class_stack_ar_a15a4938f80dc4009aaba5eb01bd1e6c1}
+
+
+Retorna o elemento no topo da pilha. 
+
+\begin{DoxyReturn}{Returns}
+Elemento no topo da pilha 
+\end{DoxyReturn}
+
+
+Implements \hyperlink{class_abs_stack}{Abs\+Stack$<$ Object $>$}.
+
+
+
+\subsection{Friends And Related Function Documentation}
+\index{Stack\+Ar@{Stack\+Ar}!operator$<$$<$@{operator$<$$<$}}
+\index{operator$<$$<$@{operator$<$$<$}!Stack\+Ar@{Stack\+Ar}}
+\subsubsection[{\texorpdfstring{operator$<$$<$}{operator<<}}]{\setlength{\rightskip}{0pt plus 5cm}template$<$class Object $>$ std\+::ostream\& operator$<$$<$ (
+\begin{DoxyParamCaption}
+\item[{std\+::ostream \&}]{op, }
+\item[{const {\bf Stack\+Ar}$<$ Object $>$ \&}]{objeto}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [friend]}}\hypertarget{class_stack_ar_ace3850b785f09b70ff174a57cadd4a96}{}\label{class_stack_ar_ace3850b785f09b70ff174a57cadd4a96}
+
+
+Sobrecarga do operador $<$$<$ para a pilha. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em op} & std\+::ostream \\
+\hline
+{\em objeto} & Objeto da classe \hyperlink{class_queue_ar}{Queue\+Ar} \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+std\+::ostream op 
+\end{DoxyReturn}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+include/\hyperlink{stackar_8h}{stackar.\+h}\item 
+include/\hyperlink{stackar_8inl}{stackar.\+inl}\end{DoxyCompactItemize}

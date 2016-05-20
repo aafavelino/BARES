@@ -1,0 +1,1 @@
+g++ -std=c++11 -pedantic -I include/ src/drive.cpp -o bin/exe && ./bin/exe data/data.txt 

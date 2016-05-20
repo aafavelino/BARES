@@ -1,0 +1,195 @@
+\hypertarget{classconjuntura}{}\section{conjuntura Class Reference}
+\label{classconjuntura}\index{conjuntura@{conjuntura}}
+
+
+Classe conjuntura.  
+
+
+
+
+{\ttfamily \#include $<$header.\+h$>$}
+
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{classconjuntura_af63277766a70ebce6534ec77c2f32eb9}{conjuntura} ()\hypertarget{classconjuntura_af63277766a70ebce6534ec77c2f32eb9}{}\label{classconjuntura_af63277766a70ebce6534ec77c2f32eb9}
+
+\begin{DoxyCompactList}\small\item\em Construtor da classe conjuntura Cria as conjuturas. \end{DoxyCompactList}\item 
+\hyperlink{classconjuntura_adc088f0e6f70c07c041533ac0b24c692}{$\sim$conjuntura} ()\hypertarget{classconjuntura_adc088f0e6f70c07c041533ac0b24c692}{}\label{classconjuntura_adc088f0e6f70c07c041533ac0b24c692}
+
+\begin{DoxyCompactList}\small\item\em Destrutor da classe conjuntura Destroi as conjuturas. \end{DoxyCompactList}\item 
+int \hyperlink{classconjuntura_acdea319e644d7e5c12d7b9c5fe891a28}{get\+\_\+precedencia} (std\+::string op) const 
+\begin{DoxyCompactList}\small\item\em Colhe a precedencia dos operadores. \end{DoxyCompactList}\item 
+bool \hyperlink{classconjuntura_ad431182bd209959cbc242855e17c24a6}{eh\+\_\+operador} (std\+::string op) const 
+\begin{DoxyCompactList}\small\item\em Verifica se é o valor é um operador. \end{DoxyCompactList}\item 
+bool \hyperlink{classconjuntura_a203d067e8788a4be7b879c2bf619e400}{eh\+\_\+operador\+\_\+antes} (char op) const 
+\begin{DoxyCompactList}\small\item\em Verifica se é o valor é um operador antes da sequencia seguinte. \end{DoxyCompactList}\item 
+bool \hyperlink{classconjuntura_ae6596c44980af69b76028e9e07bdbc27}{eh\+\_\+operador\+\_\+completa} (char op) const 
+\begin{DoxyCompactList}\small\item\em Verifica se é o valor é um operador completamente. \end{DoxyCompactList}\item 
+bool \hyperlink{classconjuntura_aa965f1bcbff1d132fd9b333a032c6e69}{eh\+\_\+digito} (char op) const 
+\begin{DoxyCompactList}\small\item\em Verifica se é o valor é um dígito. \end{DoxyCompactList}\item 
+int \hyperlink{classconjuntura_a8cf783aa2603fd8b5b28a813e320fb81}{aval\+Pos\+Fixa} ()
+\begin{DoxyCompactList}\small\item\em Avalia a expressão afim de realizar os cálculos e obter o resultado. \end{DoxyCompactList}\item 
+void \hyperlink{classconjuntura_a5ed989aef05d806b69852592832e2b64}{Infx2\+Posfx} ()
+\begin{DoxyCompactList}\small\item\em Converte a expressão infixa para expressão pósfixa. \end{DoxyCompactList}\item 
+bool \hyperlink{classconjuntura_a264666a5fb0a1810eeaa6d1ea59283a5}{token} (const char $\ast$aux, int t)
+\begin{DoxyCompactList}\small\item\em Tokeniza o arquivo. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Classe conjuntura. 
+
+Assinaturas das funções e definição da classe conjuntura 
+
+\subsection{Member Function Documentation}
+\index{conjuntura@{conjuntura}!aval\+Pos\+Fixa@{aval\+Pos\+Fixa}}
+\index{aval\+Pos\+Fixa@{aval\+Pos\+Fixa}!conjuntura@{conjuntura}}
+\subsubsection[{\texorpdfstring{aval\+Pos\+Fixa()}{avalPosFixa()}}]{\setlength{\rightskip}{0pt plus 5cm}int conjuntura\+::aval\+Pos\+Fixa (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\hypertarget{classconjuntura_a8cf783aa2603fd8b5b28a813e320fb81}{}\label{classconjuntura_a8cf783aa2603fd8b5b28a813e320fb81}
+
+
+Avalia a expressão afim de realizar os cálculos e obter o resultado. 
+
+\begin{DoxyReturn}{Returns}
+inteiro 
+\end{DoxyReturn}
+\index{conjuntura@{conjuntura}!eh\+\_\+digito@{eh\+\_\+digito}}
+\index{eh\+\_\+digito@{eh\+\_\+digito}!conjuntura@{conjuntura}}
+\subsubsection[{\texorpdfstring{eh\+\_\+digito(char op) const }{eh_digito(char op) const }}]{\setlength{\rightskip}{0pt plus 5cm}bool conjuntura\+::eh\+\_\+digito (
+\begin{DoxyParamCaption}
+\item[{char}]{op}
+\end{DoxyParamCaption}
+) const}\hypertarget{classconjuntura_aa965f1bcbff1d132fd9b333a032c6e69}{}\label{classconjuntura_aa965f1bcbff1d132fd9b333a032c6e69}
+
+
+Verifica se é o valor é um dígito. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em op} & Operador char usado para verificação \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+true ou false 
+\end{DoxyReturn}
+\index{conjuntura@{conjuntura}!eh\+\_\+operador@{eh\+\_\+operador}}
+\index{eh\+\_\+operador@{eh\+\_\+operador}!conjuntura@{conjuntura}}
+\subsubsection[{\texorpdfstring{eh\+\_\+operador(std\+::string op) const }{eh_operador(std::string op) const }}]{\setlength{\rightskip}{0pt plus 5cm}bool conjuntura\+::eh\+\_\+operador (
+\begin{DoxyParamCaption}
+\item[{std\+::string}]{op}
+\end{DoxyParamCaption}
+) const}\hypertarget{classconjuntura_ad431182bd209959cbc242855e17c24a6}{}\label{classconjuntura_ad431182bd209959cbc242855e17c24a6}
+
+
+Verifica se é o valor é um operador. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em op} & Operador string usado para verificação \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+true ou false 
+\end{DoxyReturn}
+\index{conjuntura@{conjuntura}!eh\+\_\+operador\+\_\+antes@{eh\+\_\+operador\+\_\+antes}}
+\index{eh\+\_\+operador\+\_\+antes@{eh\+\_\+operador\+\_\+antes}!conjuntura@{conjuntura}}
+\subsubsection[{\texorpdfstring{eh\+\_\+operador\+\_\+antes(char op) const }{eh_operador_antes(char op) const }}]{\setlength{\rightskip}{0pt plus 5cm}bool conjuntura\+::eh\+\_\+operador\+\_\+antes (
+\begin{DoxyParamCaption}
+\item[{char}]{op}
+\end{DoxyParamCaption}
+) const}\hypertarget{classconjuntura_a203d067e8788a4be7b879c2bf619e400}{}\label{classconjuntura_a203d067e8788a4be7b879c2bf619e400}
+
+
+Verifica se é o valor é um operador antes da sequencia seguinte. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em op} & Operador char usado para verificação \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+true ou false 
+\end{DoxyReturn}
+\index{conjuntura@{conjuntura}!eh\+\_\+operador\+\_\+completa@{eh\+\_\+operador\+\_\+completa}}
+\index{eh\+\_\+operador\+\_\+completa@{eh\+\_\+operador\+\_\+completa}!conjuntura@{conjuntura}}
+\subsubsection[{\texorpdfstring{eh\+\_\+operador\+\_\+completa(char op) const }{eh_operador_completa(char op) const }}]{\setlength{\rightskip}{0pt plus 5cm}bool conjuntura\+::eh\+\_\+operador\+\_\+completa (
+\begin{DoxyParamCaption}
+\item[{char}]{op}
+\end{DoxyParamCaption}
+) const}\hypertarget{classconjuntura_ae6596c44980af69b76028e9e07bdbc27}{}\label{classconjuntura_ae6596c44980af69b76028e9e07bdbc27}
+
+
+Verifica se é o valor é um operador completamente. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em op} & Operador char usado para verificação \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+true ou false 
+\end{DoxyReturn}
+\index{conjuntura@{conjuntura}!get\+\_\+precedencia@{get\+\_\+precedencia}}
+\index{get\+\_\+precedencia@{get\+\_\+precedencia}!conjuntura@{conjuntura}}
+\subsubsection[{\texorpdfstring{get\+\_\+precedencia(std\+::string op) const }{get_precedencia(std::string op) const }}]{\setlength{\rightskip}{0pt plus 5cm}int conjuntura\+::get\+\_\+precedencia (
+\begin{DoxyParamCaption}
+\item[{std\+::string}]{op}
+\end{DoxyParamCaption}
+) const}\hypertarget{classconjuntura_acdea319e644d7e5c12d7b9c5fe891a28}{}\label{classconjuntura_acdea319e644d7e5c12d7b9c5fe891a28}
+
+
+Colhe a precedencia dos operadores. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em op} & Operador string usado para verificação de precedência \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Um inteiro equivalente a sua precedencia Precedencia Operadores 1 -\/(un) 2 ˆ 3 $\ast$ / \% 4 + -\/ 5 () 
+\end{DoxyReturn}
+\index{conjuntura@{conjuntura}!Infx2\+Posfx@{Infx2\+Posfx}}
+\index{Infx2\+Posfx@{Infx2\+Posfx}!conjuntura@{conjuntura}}
+\subsubsection[{\texorpdfstring{Infx2\+Posfx()}{Infx2Posfx()}}]{\setlength{\rightskip}{0pt plus 5cm}void conjuntura\+::\+Infx2\+Posfx (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\hypertarget{classconjuntura_a5ed989aef05d806b69852592832e2b64}{}\label{classconjuntura_a5ed989aef05d806b69852592832e2b64}
+
+
+Converte a expressão infixa para expressão pósfixa. 
+
+\begin{DoxyReturn}{Returns}
+void 
+\end{DoxyReturn}
+\index{conjuntura@{conjuntura}!token@{token}}
+\index{token@{token}!conjuntura@{conjuntura}}
+\subsubsection[{\texorpdfstring{token(const char $\ast$aux, int t)}{token(const char *aux, int t)}}]{\setlength{\rightskip}{0pt plus 5cm}bool conjuntura\+::token (
+\begin{DoxyParamCaption}
+\item[{const char $\ast$}]{aux, }
+\item[{int}]{t}
+\end{DoxyParamCaption}
+)}\hypertarget{classconjuntura_a264666a5fb0a1810eeaa6d1ea59283a5}{}\label{classconjuntura_a264666a5fb0a1810eeaa6d1ea59283a5}
+
+
+Tokeniza o arquivo. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em aux} & Recebe um vetor char do arquivo via getline. \\
+\hline
+{\em t} & Tamanho da string. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+True caso a expressão seja correta e False caso contrário 
+\end{DoxyReturn}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+include/\hyperlink{header_8h}{header.\+h}\item 
+include/\hyperlink{header_8inl}{header.\+inl}\end{DoxyCompactItemize}
