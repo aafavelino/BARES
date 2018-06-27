@@ -61,9 +61,6 @@ Ex.: 3/(1 − 1); ou 10/(3 ∗ 3ˆ−2). Nestes casos nao e preciso informar a c
 9. Numeric overflow error!: Acontece quando uma operacao dentro da expressao ou a expressao inteira estoura o limite das constantes numericas definidos na Secao 1.
 Ex.: 20 ∗ 20000. Nestes casos nao e preciso informar a coluna.
 
-### Limitacoes
-* O programa não está tratando unário
-
 ## Autores:
 * Adelino Afonso Fernandes Avelino - adelino-afonso@hotmail.com
 
